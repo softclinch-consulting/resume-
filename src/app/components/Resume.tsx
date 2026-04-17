@@ -50,7 +50,7 @@ export function Resume() {
             </div>
           </header>
 
-          <div className="grid grid-cols-[30%_70%] gap-5 p-6">
+          <div className="grid grid-cols-[30%_70%] gap-4 p-6">
             <div className="space-y-4">
               <div className="rounded-lg border p-4" style={{ backgroundColor: '#F3F4F6', borderColor: '#E5E7EB' }}>
                 <h2 className="text-[13px] font-bold uppercase tracking-wide mb-3 flex items-center gap-2" style={{ color: '#1F3A5F' }}>
@@ -231,9 +231,9 @@ export function Resume() {
           </div>
         </div>
 
-        <div className="resume-page bg-white shadow-md p-8" style={{ width: '210mm' }}>
-          <section className="mb-6">
-            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-4 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
+        <div className="resume-page bg-white shadow-md p-6" style={{ width: '210mm' }}>
+          <section className="mb-5">
+            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-3 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
               Key Responsibilities
             </h2>
 
@@ -316,8 +316,8 @@ export function Resume() {
             </div>
           </section>
 
-          <section className="mb-6">
-            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-4 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
+          <section className="mb-5">
+            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-3 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
               Key Achievements
             </h2>
             <div className="bg-white rounded-lg border p-4 shadow-sm" style={{ borderColor: '#E5E7EB' }}>
@@ -338,8 +338,8 @@ export function Resume() {
             </div>
           </section>
 
-          <section className="mb-6">
-            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-4 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
+          <section className="mb-5">
+            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-3 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
               Technical Competencies
             </h2>
             <div className="grid grid-cols-2 gap-4">
@@ -366,8 +366,8 @@ export function Resume() {
             </div>
           </section>
 
-          <section className="mb-4">
-            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-4 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
+          <section className="mb-0">
+            <h2 className="text-[15px] font-bold uppercase tracking-wide mb-3 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
               Additional Information
             </h2>
             <div className="bg-white rounded-lg border p-4 shadow-sm" style={{ borderColor: '#E5E7EB' }}>
@@ -402,7 +402,7 @@ export function Resume() {
             </div>
           </section>
 
-          <div className="mt-6 pt-4 border-t text-center" style={{ borderColor: '#E5E7EB' }}>
+          <div className="mt-5 pt-3 border-t text-center" style={{ borderColor: '#E5E7EB' }}>
             <p className="text-[9px]" style={{ color: '#6B7280' }}>
               References available upon request | Updated April 2026
             </p>
