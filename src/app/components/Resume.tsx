@@ -171,12 +171,6 @@ export function Resume() {
                 <div className="flex items-start gap-2 mb-2">
                   <Briefcase size={16} className="mt-0.5" style={{ color: '#2CA6A4' }} />
                   <div className="flex-1">
-                    <div
-                      className="inline-flex items-center rounded-full px-2.5 py-1 mb-2 text-[9px] font-bold uppercase tracking-wide"
-                      style={{ backgroundColor: '#1F3A5F', color: '#FFFFFF' }}
-                    >
-                      Current Employer
-                    </div>
                     <h3 className="text-[12px] font-bold" style={{ color: '#2CA6A4' }}>
                       Lewe Engineering Pte Ltd - Singapore
                     </h3>
