@@ -10,18 +10,9 @@ export function Resume() {
         <div className="bg-white shadow-md" style={{ width: '210mm', minHeight: '297mm' }}>
           
           {/* HEADER - FULL WIDTH COLORED BAR */}
-          <header className="px-10 py-8 flex items-center gap-6" style={{ backgroundColor: '#1F3A5F' }}>
-            {/* Profile Photo */}
-            <div className="flex-shrink-0">
-              <img 
-                src={profileImage} 
-                alt="Vinoth Ganapathi" 
-                className="w-24 h-24 rounded-full border-4 border-white/20 object-cover shadow-lg"
-              />
-            </div>
-            
+          <header className="px-10 py-8 flex items-start justify-between gap-6" style={{ backgroundColor: '#1F3A5F' }}>
             {/* Name and Contact Info */}
-            <div className="flex-1">
+            <div className="flex-1 pr-4">
               <h1 className="text-[32px] font-bold tracking-tight mb-1 text-white">
                 VINOTH GANAPATHI
               </h1>
@@ -42,6 +33,15 @@ export function Resume() {
                   <span>Chennai, Tamil Nadu, India</span>
                 </div>
               </div>
+            </div>
+
+            {/* Profile Photo */}
+            <div className="flex-shrink-0 self-start">
+              <img
+                src={profileImage}
+                alt="Vinoth Ganapathi"
+                className="w-24 h-24 rounded-full border-4 border-white/20 object-cover shadow-lg"
+              />
             </div>
           </header>
 
