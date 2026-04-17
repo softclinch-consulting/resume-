@@ -32,7 +32,7 @@ export function Resume() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail size={13} />
-                  <span>vinoth.ganapathi@email.com</span>
+                  <span>kgvinothvision@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin size={13} />
@@ -60,7 +60,7 @@ export function Resume() {
                 <div className="space-y-2">
                   {[
                     'Facility Operations',
-                    'HVAC / Electrical / Plumbing',
+                    'HVAC / Electrical',
                     'Preventive Maintenance',
                     'Vendor Management',
                     'Safety Compliance (WSH)',
@@ -85,8 +85,6 @@ export function Resume() {
                   {[
                     'WSQ Workplace Safety (WSH) Level 3',
                     'Managing Work at Height (MWAH)',
-                    'Fire Safety Manager (FSM)',
-                    'CPR + AED Certified',
                   ].map((cert, index) => (
                     <li key={index} className="text-[10px] flex items-start gap-2" style={{ color: '#111827' }}>
                       <span className="font-bold" style={{ color: '#2CA6A4' }}>&bull;</span>
@@ -133,7 +131,7 @@ export function Resume() {
                 </h2>
                 <div className="space-y-1.5">
                   <p className="text-[9px]" style={{ color: '#6B7280' }}>
-                    <span className="font-semibold" style={{ color: '#111827' }}>DOB:</span> 15 Aug 1994
+                    <span className="font-semibold" style={{ color: '#111827' }}>DOB:</span> 15/01/1990
                   </p>
                   <p className="text-[9px]" style={{ color: '#6B7280' }}>
                     <span className="font-semibold" style={{ color: '#111827' }}>Nationality:</span> Indian
@@ -188,10 +186,9 @@ export function Resume() {
                 </div>
                 <ul className="space-y-1.5 ml-2 mt-3">
                   {[
-                    'Managed daily operations and maintenance of 15-story commercial facility, overseeing HVAC, electrical, plumbing, and fire protection systems serving 800+ employees',
+                    'Managed daily operations and maintenance of 7-story commercial facility, overseeing HVAC, electrical, and fire protection systems serving 800+ employees',
                     'Implemented preventive maintenance program that reduced equipment downtime by 35% and extended asset lifecycle by optimizing maintenance schedules',
                     'Led team of 8 technicians, coordinating shift operations and ensuring 24/7 facility availability while maintaining WSH compliance standards',
-                    'Supervised vendor contracts worth SGD 2.5M annually, negotiating service agreements and ensuring quality delivery within budget constraints',
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-2 text-[10px] leading-relaxed" style={{ color: '#111827', textAlign: 'justify' }}>
                       <span className="mt-[2px] text-[10px] leading-none" style={{ color: '#111827' }}>&bull;</span>
@@ -349,7 +346,7 @@ export function Resume() {
               <div className="bg-white rounded-lg border p-4 shadow-sm" style={{ borderColor: '#E5E7EB' }}>
                 <h3 className="text-[11px] font-bold mb-2" style={{ color: '#1F3A5F' }}>Systems & Equipment</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['HVAC Systems', 'BMS/SCADA', 'Fire Alarm Systems', 'Electrical Distribution', 'Plumbing Systems'].map((tech, i) => (
+                  {['HVAC Systems', 'BMS/SCADA', 'Fire Alarm Systems', 'Electrical Distribution'].map((tech, i) => (
                     <span key={i} className="text-[9px] px-2 py-1 rounded" style={{ backgroundColor: '#F3F4F6', color: '#111827' }}>
                       {tech}
                     </span>
