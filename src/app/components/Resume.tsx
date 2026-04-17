@@ -159,10 +159,10 @@ export function Resume() {
                     className="inline-flex items-center rounded-full px-3 py-1 mb-3 text-[10px] font-bold uppercase tracking-wide"
                     style={{ backgroundColor: '#E6FFFB', color: '#0F766E' }}
                   >
-                    Current Employer: Lewe Engineering Pte Ltd | Client: AMS-AMK
+                    Current Employer: Lewe Engineering Pvt Ltd | Client: AMS-AMK
                   </div>
                   <p className="text-[11px] leading-relaxed" style={{ color: '#111827' }}>
-                    Results-driven Facilities Management Engineer with <strong>7+ years</strong> of experience in facility operations, maintenance, and safety compliance. Currently working with <strong>Lewe Engineering Pte Ltd</strong> for client <strong>AMS-AMK</strong> in the role of <strong>Coordinator</strong>. Strong background in HVAC systems, fire protection, preventive maintenance, vendor coordination, and workplace safety, with previous experience supporting major facilities in Singapore.
+                    Results-driven Facilities Management Engineer with <strong>7+ years</strong> of experience in facility operations, maintenance, and safety compliance. Currently working with <strong>Lewe Engineering Pvt Ltd</strong> for client <strong>AMS-AMK</strong> in the role of <strong>Coordinator</strong>. Strong background in HVAC systems, fire protection, preventive maintenance, vendor coordination, and workplace safety, with previous experience supporting major facilities in Singapore.
                   </p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ export function Resume() {
                   <Briefcase size={16} className="mt-0.5" style={{ color: '#2CA6A4' }} />
                   <div className="flex-1">
                     <h3 className="text-[12px] font-bold" style={{ color: '#2CA6A4' }}>
-                      Lewe Engineering Pte Ltd - Singapore
+                      Lewe Engineering Pvt Ltd - Singapore
                     </h3>
                     <p className="text-[11px] font-semibold" style={{ color: '#1F3A5F' }}>
                       Client: AMS-AMK | Role: Coordinator
