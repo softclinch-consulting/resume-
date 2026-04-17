@@ -168,6 +168,9 @@ export function Resume() {
               </div>
 
               <div className="bg-white rounded-lg border shadow-sm p-4" style={{ borderColor: '#E5E7EB' }}>
+                <h2 className="text-[14px] font-bold uppercase tracking-wide mb-3" style={{ color: '#1F3A5F' }}>
+                  Professional Experience
+                </h2>
                 <div className="flex items-start gap-2 mb-2">
                   <Briefcase size={16} className="mt-0.5" style={{ color: '#2CA6A4' }} />
                   <div className="flex-1">
