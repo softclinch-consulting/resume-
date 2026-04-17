@@ -15,8 +15,8 @@ import profileImage from '../../imports/sample-clear.jpeg';
 export function Resume() {
   return (
     <div className="min-h-screen py-8 px-4" style={{ backgroundColor: '#F9FAFB' }}>
-      <div className="max-w-[210mm] mx-auto space-y-6">
-        <div className="bg-white shadow-md" style={{ width: '210mm', minHeight: '297mm' }}>
+      <div className="max-w-[210mm] mx-auto flex flex-col gap-3">
+        <div className="resume-page bg-white shadow-md" style={{ width: '210mm' }}>
           <header className="px-10 py-8 flex items-start justify-between gap-6" style={{ backgroundColor: '#1F3A5F' }}>
             <div className="flex-1 pr-4">
               <h1 className="text-[32px] font-bold tracking-tight mb-1 text-white">
@@ -234,7 +234,7 @@ export function Resume() {
           </div>
         </div>
 
-        <div className="bg-white shadow-md p-8" style={{ width: '210mm', minHeight: '297mm' }}>
+        <div className="resume-page bg-white shadow-md p-8" style={{ width: '210mm' }}>
           <section className="mb-6">
             <h2 className="text-[15px] font-bold uppercase tracking-wide mb-4 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
               Key Responsibilities
@@ -415,6 +415,9 @@ export function Resume() {
 
       <style>{`
         @media print {
+          .resume-page {
+            min-height: 297mm;
+          }
           body {
             margin: 0;
             padding: 0;
@@ -427,7 +430,7 @@ export function Resume() {
             padding-top: 0;
             padding-bottom: 0;
           }
-          .space-y-6 > * + * {
+          .resume-page + .resume-page {
             margin-top: 0;
             page-break-before: always;
           }
