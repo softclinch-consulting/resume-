@@ -142,7 +142,7 @@ export function Resume() {
                     <span className="font-semibold" style={{ color: '#111827' }}>Status:</span> Single
                   </p>
                   <p className="text-[9px]" style={{ color: '#6B7280' }}>
-                    <span className="font-semibold" style={{ color: '#111827' }}>Languages:</span> English, Tamil, Hindi
+                    <span className="font-semibold" style={{ color: '#111827' }}>Languages:</span> English, Tamil
                   </p>
                 </div>
               </div>
