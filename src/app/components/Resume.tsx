@@ -14,7 +14,7 @@ import profileImage from '../../imports/sample-clear.jpeg';
 
 export function Resume() {
   return (
-    <div className="min-h-screen py-8 px-4" style={{ backgroundColor: '#F9FAFB' }}>
+    <div className="min-h-screen pt-12 pb-8 px-4" style={{ backgroundColor: '#F9FAFB' }}>
       <div className="max-w-[210mm] mx-auto flex flex-col gap-3">
         <div className="resume-page bg-white shadow-md" style={{ width: '210mm' }}>
           <header className="px-10 py-8 flex items-start justify-between gap-6" style={{ backgroundColor: '#1F3A5F' }}>
@@ -423,7 +423,8 @@ export function Resume() {
             min-height: 0;
             padding: 0;
           }
-          .py-8 {
+          .pt-12,
+          .pb-8 {
             padding-top: 0;
             padding-bottom: 0;
           }
