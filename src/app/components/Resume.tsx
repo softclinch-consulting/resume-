@@ -50,7 +50,7 @@ export function Resume() {
             </div>
           </header>
 
-          <div className="grid grid-cols-[30%_70%] gap-4 p-6">
+          <div className="grid grid-cols-[30%_70%] gap-4 p-6 text-left">
             <div className="space-y-4">
               <div className="rounded-lg border p-4" style={{ backgroundColor: '#F3F4F6', borderColor: '#E5E7EB' }}>
                 <h2 className="text-[13px] font-bold uppercase tracking-wide mb-3 flex items-center gap-2" style={{ color: '#1F3A5F' }}>
@@ -151,7 +151,7 @@ export function Resume() {
             <div className="space-y-4">
               <div className="bg-white rounded-lg border shadow-sm relative overflow-hidden" style={{ borderColor: '#E5E7EB' }}>
                 <div className="absolute left-0 top-0 bottom-0 w-1" style={{ backgroundColor: '#2CA6A4' }}></div>
-                <div className="p-4 pl-5">
+                <div className="p-4 pl-5 text-left">
                   <h2 className="text-[14px] font-bold uppercase tracking-wide mb-3" style={{ color: '#1F3A5F' }}>
                     Professional Summary
                   </h2>
@@ -167,11 +167,11 @@ export function Resume() {
                 </div>
               </div>
 
-              <h2 className="text-[14px] font-bold uppercase tracking-wide px-1" style={{ color: '#1F3A5F' }}>
+              <h2 className="text-[14px] font-bold uppercase tracking-wide text-left" style={{ color: '#1F3A5F' }}>
                 Professional Experience
               </h2>
 
-              <div className="bg-white rounded-lg border shadow-sm p-4" style={{ borderColor: '#E5E7EB' }}>
+              <div className="bg-white rounded-lg border shadow-sm p-4 text-left" style={{ borderColor: '#E5E7EB' }}>
                 <div className="flex items-start gap-2 mb-2">
                   <Briefcase size={16} className="mt-0.5" style={{ color: '#2CA6A4' }} />
                   <div className="flex-1">
@@ -200,7 +200,7 @@ export function Resume() {
                 </ul>
               </div>
 
-              <div className="bg-white rounded-lg border shadow-sm p-4" style={{ borderColor: '#E5E7EB' }}>
+              <div className="bg-white rounded-lg border shadow-sm p-4 text-left" style={{ borderColor: '#E5E7EB' }}>
                 <div className="flex items-start gap-2 mb-2">
                   <Briefcase size={16} className="mt-0.5" style={{ color: '#2CA6A4' }} />
                   <div className="flex-1">
@@ -232,7 +232,7 @@ export function Resume() {
           </div>
         </div>
 
-        <div className="resume-page bg-white shadow-md p-6" style={{ width: '210mm' }}>
+        <div className="resume-page bg-white shadow-md p-6 text-left" style={{ width: '210mm' }}>
           <section className="mb-5">
             <h2 className="text-[15px] font-bold uppercase tracking-wide mb-3 pb-2 border-b-2" style={{ color: '#1F3A5F', borderColor: '#2CA6A4' }}>
               Key Responsibilities
