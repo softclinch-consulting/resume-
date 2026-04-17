@@ -161,7 +161,7 @@ export function Resume() {
                   >
                     Current Employer: Lewe Engineering Pvt Ltd | Client: AMS-AMK
                   </div>
-                  <p className="text-[11px] leading-relaxed" style={{ color: '#111827' }}>
+                  <p className="text-[11px] leading-relaxed" style={{ color: '#111827', textAlign: 'justify' }}>
                     Results-driven Facilities Management Engineer with <strong>7+ years</strong> of experience in facility operations, maintenance, and safety compliance. Currently working with <strong>Lewe Engineering Pvt Ltd</strong> for client <strong>AMS-AMK</strong> in the role of <strong>Coordinator</strong>. Strong background in HVAC systems, fire protection, preventive maintenance, vendor coordination, and workplace safety, with previous experience supporting major facilities in Singapore.
                   </p>
                 </div>
@@ -186,15 +186,16 @@ export function Resume() {
                     </p>
                   </div>
                 </div>
-                <ul className="space-y-1.5 ml-6 mt-3">
+                <ul className="space-y-1.5 ml-2 mt-3">
                   {[
                     'Managed daily operations and maintenance of 15-story commercial facility, overseeing HVAC, electrical, plumbing, and fire protection systems serving 800+ employees',
                     'Implemented preventive maintenance program that reduced equipment downtime by 35% and extended asset lifecycle by optimizing maintenance schedules',
                     'Led team of 8 technicians, coordinating shift operations and ensuring 24/7 facility availability while maintaining WSH compliance standards',
                     'Supervised vendor contracts worth SGD 2.5M annually, negotiating service agreements and ensuring quality delivery within budget constraints',
                   ].map((item, index) => (
-                    <li key={index} className="text-[10px] leading-relaxed" style={{ color: '#111827' }}>
-                      &bull; {item}
+                    <li key={index} className="flex items-start gap-2 text-[10px] leading-relaxed" style={{ color: '#111827', textAlign: 'justify' }}>
+                      <span className="mt-[2px] text-[10px] leading-none" style={{ color: '#111827' }}>&bull;</span>
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -215,15 +216,16 @@ export function Resume() {
                     </p>
                   </div>
                 </div>
-                <ul className="space-y-1.5 ml-6 mt-3">
+                <ul className="space-y-1.5 ml-2 mt-3">
                   {[
                     'Managed maintenance operations across two premier facilities: 63-story One Raffles Place tower and HDB Hub complex, ensuring optimal system performance',
                     'Coordinated emergency response procedures and equipment repairs, maintaining 98% uptime for critical building systems',
                     'Executed chiller plant optimization project reducing energy consumption by 18% while maintaining comfort parameters',
                     'Maintained comprehensive maintenance logs and compliance documentation for BCA inspections and regulatory requirements',
                   ].map((item, index) => (
-                    <li key={index} className="text-[10px] leading-relaxed" style={{ color: '#111827' }}>
-                      &bull; {item}
+                    <li key={index} className="flex items-start gap-2 text-[10px] leading-relaxed" style={{ color: '#111827', textAlign: 'justify' }}>
+                      <span className="mt-[2px] text-[10px] leading-none" style={{ color: '#111827' }}>&bull;</span>
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
