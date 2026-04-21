@@ -83,7 +83,11 @@ export function Resume() {
                 </h2>
                 <ul className="space-y-2">
                   {[
+<<<<<<< HEAD
                     'WSQ Workplace Safety (WSH) (BCSS )',
+=======
+                    'WSQ Workplace Safety (WSH) Level 3',
+>>>>>>> efd7c526bf68cf9811c22907e97b42ac6c567ca5
                     'Managing Work at Height (MWAH)',
                   ].map((cert, index) => (
                     <li key={index} className="text-[10px] flex items-start gap-2" style={{ color: '#111827' }}>
